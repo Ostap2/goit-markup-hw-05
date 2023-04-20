@@ -565,17 +565,7 @@ background: #FCFCFC;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 4px;
 }
-.background-modal {
-    margin: 0 auto;
-    position: absolute;
-width: 408px;
-height: 576px;
-left: 516px;
-top: 88px;
-background: #FCFCFC;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
-}
+
 .back-button {
     margin: 0 auto;
     position: absolute;
@@ -583,5 +573,4 @@ width: 24px;
 height: 24px;
 left: 876px;
 top: 112px;
-
 }
