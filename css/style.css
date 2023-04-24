@@ -154,12 +154,14 @@
     letter-spacing: 0.04em;
 }
 .button-list:hover {
+    transition: 250ms;
     box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); ;
        color: #FFFFFF;
     background-color: #404BBF;
     
     }
 .button-list:focus {
+    transition: 250ms;
     box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); ;
             color: #FFFFFF;
             background-color: #404BBF;
@@ -199,9 +201,11 @@
     background-color: #404bbf ;
 }
 .button:focus {
+    transition: 250ms;
     background-color: #404bbf ;
 }
 .mail:focus {
+    transition: 250ms;
     color: #404bbf;
 }
 .number:focus {
@@ -373,9 +377,11 @@
     border-radius: 4px;
 }
 .button-portfolio:hover {
+    transition: 250ms;
     border: 1px solid transparent ;
 }
 .button-portfolio:focus {
+    transition: 250ms;
     border: 1px solid transparent ;
 } 
 .section-list {
@@ -439,9 +445,11 @@ ul {
     justify-content: center;   
 }
 .link-four:focus {
+    transition: 250ms;
     background-color: #404bbf;
 }
 .link-four:hover {
+    transition: 250ms;
     background-color: #404bbf;
 }
 
@@ -475,10 +483,12 @@ ul {
 
 }
 .link-five:hover {
+    transition: 250ms;
     border-color: #404bbf; 
     color: #404bbf;
 }
 .link-five:focus {
+    transition: 250ms;
     border-color: #404bbf; 
     color: #404bbf;
 }
@@ -516,9 +526,11 @@ ul {
 }
 .link-footer:hover {
     background-color: #31d0aa;
+    transition: 250ms;
 }
 .link-footer:focus {
     background-color: #31d0aa;
+    transition: 250ms;
 }
 .svg-footer {
     fill:  #f4f4fd;
@@ -542,9 +554,11 @@ ul {
     display: block; 
 }
 .portfolio-link:hover {
+    transition: 250ms;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 .portfolio-link:focus {
+    transition: 250ms;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 .li-four-scr {
