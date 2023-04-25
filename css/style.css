@@ -576,9 +576,13 @@ height: 672px;
 }
 .backdrop.is-hidden {
     visibility: hidden;
-    opacity: 0%;
+    opacity: 0;
     pointer-events: none;
 }
+.backdrop.is-hidden .modal {
+opacity: 0;
+transform: translate(-50%, -50%) scale(0.5);
+} 
 .modal {
 position: absolute;
 left: 50%;
