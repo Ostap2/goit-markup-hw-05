@@ -574,6 +574,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 width: 1440px;
 height: 672px;
 }
+.backdrop.is-hidden {
+    opacity: 0%;
+}
 .modal {
 position: absolute;
 left: 50%;
@@ -587,8 +590,11 @@ border-radius: 4px;
 }
 .close {
 position: absolute;
+top: 24px;
+right: 24px;
 width: 24px;
 height: 24px;
-left: 876px;
-top: 104px;
+background-color: #e7e9fc;
+border-radius: 50%;
+border: 1px solid rgba(0, 0, 0, 0.1);
 }
