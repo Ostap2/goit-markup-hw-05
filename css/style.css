@@ -572,3 +572,7 @@ border-radius: 4px;
     border: #E7E9FC;
     border-radius: 24px;
 }
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
