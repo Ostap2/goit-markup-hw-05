@@ -570,7 +570,7 @@ border-radius: 4px;
 .close {
     position: absolute;
     border: #E7E9FC;
-    border-radius: 24px;
+    border-radius: 8px;
 }
 .is-hidden {
     opacity: 0;
