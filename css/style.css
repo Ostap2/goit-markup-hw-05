@@ -154,14 +154,12 @@
     letter-spacing: 0.04em;
 }
 .button-list:hover {
-    transition: 250ms;
     box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); ;
        color: #FFFFFF;
     background-color: #404BBF;
     
     }
 .button-list:focus {
-    transition: 250ms;
     box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); ;
             color: #FFFFFF;
             background-color: #404BBF;
@@ -201,11 +199,9 @@
     background-color: #404bbf ;
 }
 .button:focus {
-    transition: 250ms;
     background-color: #404bbf ;
 }
 .mail:focus {
-    transition: 250ms;
     color: #404bbf;
 }
 .number:focus {
@@ -377,11 +373,9 @@
     border-radius: 4px;
 }
 .button-portfolio:hover {
-    transition: 250ms;
     border: 1px solid transparent ;
 }
 .button-portfolio:focus {
-    transition: 250ms;
     border: 1px solid transparent ;
 } 
 .section-list {
@@ -394,7 +388,6 @@
     width: calc((100% - 48px) / 3); 
 }
 .div-li {
-    
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none; 
@@ -446,11 +439,9 @@ ul {
     justify-content: center;   
 }
 .link-four:focus {
-    transition: 250ms;
     background-color: #404bbf;
 }
 .link-four:hover {
-    transition: 250ms;
     background-color: #404bbf;
 }
 
@@ -458,11 +449,13 @@ ul {
     padding-top: 120px;
     padding-bottom: 120px; 
 }
-.title-five {
+.title-five { 
     font-size: 36px;
     line-height: 1.1 ;
     color:  #2e2f42;
-    margin-bottom: 72px; 
+    margin-bottom: 72px;  
+    align-items: center;
+    justify-content: center; 
 }
 .ul-five {
     display: flex; 
@@ -484,17 +477,12 @@ ul {
 
 }
 .link-five:hover {
-    transition: 250ms;
     border-color: #404bbf; 
     color: #404bbf;
 }
 .link-five:focus {
-    transition: 250ms;
     border-color: #404bbf; 
     color: #404bbf;
-}
-.svg-five {
-    fill: currentColor;
 }
 .div-footer {
     display: flex;
@@ -527,11 +515,9 @@ ul {
 }
 .link-footer:hover {
     background-color: #31d0aa;
-    transition: 250ms;
 }
 .link-footer:focus {
     background-color: #31d0aa;
-    transition: 250ms;
 }
 .svg-footer {
     fill:  #f4f4fd;
@@ -555,11 +541,9 @@ ul {
     display: block; 
 }
 .portfolio-link:hover {
-    transition: 250ms;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 .portfolio-link:focus {
-    transition: 250ms;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 .li-four-scr {
@@ -569,43 +553,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .logo-footer-div {
     margin-right: 120px;
 }
-.backdrop {
-    transition: 250ms;
-    position: relative;
-width: 1440px;
-height: 672px;
-}
-.backdrop.is-hidden {
-    transition: 250ms;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-}
-.backdrop.is-hidden .modal {
-    transition: 250ms;
-opacity: 0;
-transform: translate(-50%, -50%) scale(0.5);
-} 
-.modal {
-    transition: 250ms;
-position: absolute;
-left: 50%;
-top: 50%;
-opacity: 1;
-width: 408px;
-height: 584px;
-background: #FCFCFC;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
-}
-.close {
-    transition: 250ms;
-position: absolute;
-top: 24px;
-right: 24px;
-width: 24px;
-height: 24px;
-background-color: #e7e9fc;
-border-radius: 50%;
-border: 1px solid rgba(0, 0, 0, 0.1);
+.paragraff-card {
+    margin-bottom: 20px;
 }
