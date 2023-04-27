@@ -71,6 +71,7 @@
     color:#ffffff ;
     background-color:#404BBF ;
     cursor: pointer;
+    background-color: #4D5AE5 
 }
 
 .title {
@@ -449,6 +450,7 @@ ul {
     padding-bottom: 120px; 
 }
 .title-five { 
+    margin: 0 auto;
     font-size: 36px;
     line-height: 1.1 ;
     color:  #2e2f42;
@@ -523,6 +525,9 @@ ul {
 }
 .svg-four {
     fill: #f4f4fd ;
+}
+.svg-five {
+    fill: currentColor;
 }
 .Mark-Guerrero {
     left: 156px;
