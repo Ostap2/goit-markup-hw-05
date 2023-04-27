@@ -71,7 +71,6 @@
     color:#ffffff ;
     background-color:#404BBF ;
     cursor: pointer;
-    background-color: #4D5AE5 
 }
 
 .title {
@@ -574,6 +573,13 @@ border-radius: 4px;
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    cursor: pointer;
+}
+.close:hover {
+    background-color: #404bbf ;
+}
+.close:focus {
+    background-color: #404bbf ;
 }
 .is-hidden {
     visibility: hidden;
