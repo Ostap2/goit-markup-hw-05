@@ -569,7 +569,6 @@ border-radius: 4px;
 }
 .close {
     position: absolute;
-
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
