@@ -576,10 +576,10 @@ border-radius: 4px;
     cursor: pointer;
 }
 .close:hover {
-    background-color: #404bbf ;
+    background-color: #404BBF;
 }
 .close:focus {
-    background-color: #404bbf ;
+    background-color: #404BBF;
 }
 .is-hidden {
     visibility: hidden;
