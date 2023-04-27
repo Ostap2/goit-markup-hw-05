@@ -196,16 +196,20 @@
     color: #f4f4fd ;
 }
 .button:hover {
+    transition: 250ms ;
     background-color: #404bbf ;
 }
 .button:focus {
+    transition: 250ms ;
     background-color: #404bbf ;
 }
 .mail:focus {
     color: #404bbf;
+    transition: 250ms ;
 }
 .number:focus {
     color: #404bbf;
+    transition: 250ms ;
 }
 .mail {
     color: #434455 ;
@@ -373,9 +377,11 @@
     border-radius: 4px;
 }
 .button-portfolio:hover {
+    transition: 250ms ;
     border: 1px solid transparent ;
 }
 .button-portfolio:focus {
+    transition: 250ms ;
     border: 1px solid transparent ;
 } 
 .section-list {
@@ -439,9 +445,11 @@ ul {
     justify-content: center;   
 }
 .link-four:focus {
+    transition: 250ms ;
     background-color: #404bbf;
 }
 .link-four:hover {
+    transition: 250ms ;
     background-color: #404bbf;
 }
 
@@ -478,10 +486,12 @@ ul {
 
 }
 .link-five:hover {
+    transition: 250ms ;
     border-color: #404bbf; 
     color: #404bbf;
 }
 .link-five:focus {
+    transition: 250ms ;
     border-color: #404bbf; 
     color: #404bbf;
 }
@@ -515,9 +525,11 @@ ul {
     justify-content: center;
 }
 .link-footer:hover {
+    transition: 250ms ;
     background-color: #31d0aa;
 }
 .link-footer:focus {
+    transition: 250ms ;
     background-color: #31d0aa;
 }
 .svg-footer {
@@ -590,4 +602,5 @@ border-radius: 4px;
     visibility: hidden;
      opacity: 0;
     pointer-events: none;
+    scale: 250ms;
 }
