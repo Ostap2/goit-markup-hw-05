@@ -544,7 +544,6 @@ ul {
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 .portfolio-link:focus {
-    
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 .li-four-scr {
@@ -570,13 +569,12 @@ border-radius: 4px;
 }
 .close {
     position: absolute;
+    top: 24px;
+    right: 24px;
     background: #E7E9FC;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 .is-hidden {
-    translate: 0;
-    visibility: hidden;
-     opacity: 0;
-    pointer-events: none;
+    scale: 0;
 }
