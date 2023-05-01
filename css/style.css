@@ -24,8 +24,7 @@
 .list {
     list-style: none;
 }
-.link {  
-    color:#404bbf ;
+.link {
     text-decoration: none;
 }
 .menu:after {
