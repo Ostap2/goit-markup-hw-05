@@ -235,11 +235,11 @@
     gap: 40px;
 }
 .menu-li {
+    text-decoration: none;
     color: #2E2F42;
     display: block;
     padding: 24px 0;
     margin-right: auto;
-    text-decoration: none;
 }
 .menu-li:after {
     font-weight: 500;
