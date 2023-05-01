@@ -236,9 +236,9 @@
 }
 .menu-li {
     color: #2E2F42;
-    display: block;
+ display: block;
     padding: 24px 0;
-    margin-right: auto;
+    margin-right: auto;   
 }
 .menu-li:after {
     font-weight: 500;
@@ -248,12 +248,12 @@
     color:#2e2f42 ;
 }
 .menu-li:hover {
+    text-decoration: solid;
     color:#404bbf ;
-text-decoration: solid;
 }
 .menu-li:focus {
+    text-decoration: solid;
     color:#404bbf ;
-text-decoration: solid;
 }
 .adress-list {
     display: flex;
