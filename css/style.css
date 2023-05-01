@@ -251,14 +251,10 @@
 .menu-li:hover {
     color:#404bbf ;
     font-size: 40px;
-    text-decoration-color: #404bbf;
-    text-decoration-line: underline;
 }
 .menu-li:focus {
     color:#404bbf ;
     font-size: 40px;
-    text-decoration-color: #404bbf;
-    text-decoration-line: underline;
 }
 .adress-list {
     display: flex;
