@@ -250,11 +250,11 @@
 }
 .menu-li:hover {
     color:#404bbf ;
-    font-size: 40px;
+   
 }
 .menu-li:focus {
     color:#404bbf ;
-    font-size: 40px;
+   
 }
 .adress-list {
     display: flex;
