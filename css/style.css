@@ -239,6 +239,7 @@
     display: block;
     padding: 24px 0;
     margin-right: auto;
+    text-decoration: none;
 }
 .menu-li:after {
     font-weight: 500;
@@ -249,16 +250,10 @@
 }
 .menu-li:hover {
     color:#404bbf ;
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
 text-decoration: solid;
 }
 .menu-li:focus {
     color:#404bbf ;
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
 text-decoration: solid;
 }
 .adress-list {
