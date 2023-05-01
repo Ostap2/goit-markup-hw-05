@@ -33,15 +33,6 @@
 .link:focus {
     color:#404bbf ;
 }
-.menu:after {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#2e2f42 ;
-}
-
-
 .address {
     margin-left: auto;
     font-style: normal;
@@ -244,9 +235,17 @@
     gap: 40px;
 }
 .menu-li {
+    color: #2E2F42;
     display: block;
     padding: 24px 0;
     margin-right: auto;
+}
+.menu-li:after {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42 ;
 }
 .menu-li:hover {
     color:#404bbf ;
