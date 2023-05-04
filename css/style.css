@@ -626,7 +626,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     border-radius: 4px;
     scale: 2;
 }
-.menu::after {
+.menu:hover::after {
     text-decoration: line-through;
     position: absolute;
   left: 0;
@@ -638,5 +638,4 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   padding: 12px;
   color: #000000;
   font-size: 14px;
-  z-index: 1;
 }
