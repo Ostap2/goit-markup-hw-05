@@ -618,15 +618,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     border-radius: 4px;
 
 }
-  .menu-li::before,
-  .menu-li::after {
-    
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    content: "";
-    background-color: #404BBF;
-    
-
-  }
+.menu-li::before,
+.menu-li::after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 24px;
+}
