@@ -260,6 +260,15 @@ nav a.menu-li::after {
     background-color: #000;
     margin-top: 3px;
   }
+  nav a.menu-li::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin-top: 3px;
+  }
+  
 .adress-list {
     display: flex;
     gap: 40px;
