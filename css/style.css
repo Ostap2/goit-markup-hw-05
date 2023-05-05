@@ -244,6 +244,7 @@
     padding-top: 24px;
     padding-bottom: 24px;
     display:block;
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-li:hover {
     color:#404bbf ;
@@ -261,7 +262,6 @@ nav a.menu-li::after {
     height: 4px; 
     background-color: #404bbf;
     border-radius: 2px; 
-    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   nav a.menu-li::after {
     content: '';
