@@ -240,18 +240,17 @@
     color: #2E2F42;
     display: block;
     margin-right: auto;
-    position: absolute;
     padding-top: 24px;
     padding-bottom: 24px;
+    display:block;
 }
 .menu-li:hover {
     color:#404bbf ;
-    height: 72px;
    
 }
 .menu-li:focus {
     color:#404bbf ;
-    height: 72px;
+   
 }
 .adress-list {
     display: flex;
