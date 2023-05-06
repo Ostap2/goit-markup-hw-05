@@ -632,10 +632,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .close:hover {
     background: #404BBF;
     border: none; 
+    fill: #ffffff
 }
 .close:focus {
     background: #404BBF;
-    border: none; 
+    border: none;
+    fill: #ffffff 
 }
 .is-hidden{
     visibility: hidden;
@@ -660,12 +662,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.svg:hover {
-    fill: #ffffff
-}
-.svg:focus {
-    fill: #ffffff
-}
+
 .overlay-div {
     position: relative; 
     overflow: hidden;
@@ -688,4 +685,3 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-link-five
