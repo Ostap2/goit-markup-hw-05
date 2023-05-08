@@ -173,10 +173,10 @@
     color: #434455;
 }
 .paragraff-portfolio:hover {
-    translate:Y(0%) ;
+    transform: translateY(0%);
 }
 .paragraff-portfolio:focus {
-    translate:Y(0%) ;
+    transform: translateY(0%);
 }
 .section {
     background-color: #2e2f42;
@@ -702,3 +702,4 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .menu-li:focus::after {
   background-color: var(--accent-bg-cl);
 }
+paragraff-portfolio
