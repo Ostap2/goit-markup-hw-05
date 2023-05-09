@@ -252,7 +252,6 @@
     padding-top: 24px;
     padding-bottom: 24px;
     display:block;
-    color: #404bbf; 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-li:hover {
@@ -263,7 +262,7 @@
     color:#404bbf ;
    
 }
-.menu-li::after {
+.menu-li:hover::after {
     content: '';
     display: block;
     position: absolute; 
@@ -701,7 +700,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .menu-li:focus {
   color: var(--accent-txt-cl);
 }
-.menu-li::after {
+.menu-li:hover::after {
   content: '';
   position: absolute;
   bottom: 12px;
@@ -716,12 +715,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   background-color: #404bbf;
   transition: background-color var(--anim-fast);
 }
-.menu-li.current {
+.menu-li.current:hover {
   color: var(--accent-txt-cl);
 }
-.menu-li.current::after,
-.menu-li:hover::after,
-.menu-li:focus::after {
+.menu-li.current:hover::after,
+.menu-li:hover:hover::after,
+.menu-li:focus:hover::after {
   background-color: var(--accent-bg-cl);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
