@@ -270,8 +270,6 @@
     display: block;
     width: 100%;
     height: 4px;
-    border-radius: 4px;
-  
     transition: background-color var(--anim-fast);
   }
   .menu-li.current {
