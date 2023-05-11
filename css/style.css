@@ -259,7 +259,7 @@
   .menu-li:focus {
     color:#404bbf ;
   }
-  .menu-li::after {
+  .current::after {
     content: '';
     position: absolute;
     bottom: 12px;
@@ -272,12 +272,12 @@
     height: 4px;
     transition: background-color var(--anim-fast);
   }
-  .menu-li.current {
+  .current {
     color: #404bbf ;
   }
-  .menu-li.current::after,
-  .menu-li:hover::after,
-  .menu-li:focus::after {
+  .current::after,
+  .current:hover::after,
+  .current:focus::after {
     background-color: #404bbf ;
   }
 a {
